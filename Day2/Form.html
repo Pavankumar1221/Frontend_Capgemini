@@ -7,26 +7,26 @@
 </head>
 <body>
     <form action="">
-        <label for="email">Email: </label>
+        <label for="email" name="email">Email: </label>
         <input type="email" id="email" name="email" placeholder="Enter your email" required>
         <br>
-        <label for="age">Age: </label>
+        <label for="age" name="age">Age: </label>
         <input type="number" id="age" name="age" placeholder="Enter your age"  min="1" max="10" required>
         <br>
-        <label for="password">Password: </label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <label for="password" name="password">Password: </label>
+        <input  type="password" id="password" name="password" placeholder="Enter your password" required>
         <br>
-        <label for="date">Date of Birth: </label>
-        <input type="date" name="date" id="date" required>
+        <label  for="date" name="date">Date of Birth: </label>
+        <input  type="date" name="date" id="date" required>
         <br>
-        <label for="time">Preferred Time: </label>
-        <input type="time" name="time" id="time" required>
+        <label for="time" name="time">Preferred Time: </label>
+        <input readonly type="time" name="time" id="time" required>
         <br>
-        <label for="resume">Upload Resume: </label>
-        <input type="file" name="resume" id="resume" required>
+        <label for="resume" name="resume">Upload Resume: </label>
+        <input multiple type="file" name="resume" id="resume" required>
         <br>
-        <label for="experience">Experience: </label>
-        <input type="range">
+        <label for="experience" name="experience">Experience: </label>
+        <input type="range" name="experience" id="experience" min="0" max="10">
         <br>
         <label for="gender">Gender: </label>
         <input type="radio" name="gender">Male
@@ -40,9 +40,41 @@
         </select> -->
         <br>
         <label for="gender">Hobbies: </label>
-        <input type="checkbox" name="gender">Killing🔪
+        <input disabled type="checkbox" name="gender">Killing🔪
         <input type="checkbox" name="gender">Boxing🥊
         <input type="checkbox" name="gender">Fighting🥷
+        <br>
+
+        <label for="city" name="city">City: </label>
+        <select name="city" id="city">
+            <option value="">Select City</option>
+            <option value="newyork">New York</option>
+            <option value="london">London</option>
+            <option value="tokyo">Tokyo</option>
+        </select>
+        <br>
+
+        <label for="">Location</label>
+        <input type="text" list="Location">
+        <datalist id="Location">
+            <option value="Srikakulam">
+            <option value="Vijayawada">
+            <option value="Hyderabad">
+        </datalist>
+        <br>
+
+        <select name="" id="">
+            <optgroup label="Frontend">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option value="nodejs">Node.js</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+            </optgroup>
+        </select>
         <br>
         <input type="submit" value="Submit">
 

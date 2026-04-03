@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        fieldset {
+            width: 800px;
+            height: 1000px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        legend {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #img1 {
+            width: 150px;
+        }
+        #img2{
+            width: 100px;
+        }
+        #img3{
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>🍕Pizza Order Here🍕</legend>
+        <div>
+            <table>
+                <tr>
+                    <td>FirstName: </td>
+                    <td><input type="text" placeholder="Enter your name "></td>
+                </tr>
+                <tr>
+                    <td>LastName: </td>
+                    <td><input type="text" placeholder="Enter your last name "></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email" placeholder="Enter your email "></td>
+                </tr>
+                <tr>
+                    <td>Contact: </td>
+                    <td><input type="number" placeholder="Enter your phone number "></td>
+                </tr>
+                <tr>
+                    <td>Preferred Delivery Date: </td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Size: </td>
+                    <td><input type="radio">Small
+                        <input type="radio">Medium
+                        <input type="radio">Large
+                    </td>
+                </tr>
+                <tr>
+                    <td><mark><i>Outlet: </i></mark></td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Select Outlet</option>
+                            <option value="">Outlet 1</option>
+                            <option value="">Outlet 2</option>
+                            <option value="">Outlet 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <!-- Menu Items -->
+                <tr>
+                    <td><h2><i>Menu: </i> </h2></td>
+                </tr>
+                <tr>
+                    <td><img id="img1" src="pizza.png" alt=""></td>
+                    <td>
+                        <label>
+                            <input type="checkbox"><strong>Hawaiian (150₹  <strike>170₹ </strike> )</strong>
+                        </label>
+                    </td>
+                    <td>
+                         <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img id="img2" src="pepicorn.png" alt=""></td>
+                    <td>
+                        <label>
+                            <input type="checkbox"><strong>Pepperoni (140₹  <strike>160₹ </strike> )</strong>
+                        </label>
+                    </td>
+                    <td>
+                         <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img id="img3" src="vegetable.png" alt=""></td>
+                    <td>
+                        <label>
+                            <input type="checkbox"><strong>Vegetable (130₹  <strike>150₹ </strike> )</strong>
+                        </label>
+                    </td>
+                    <td>
+                         <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                         </select>
+                    </td>
+                </tr>
+
+                <!-- Extra Details -->
+                 <tr>
+                    <td><h2><i>Extra Details: </i></h2></td>
+                 </tr>
+                <tr>
+                    <th>Credit Card: </th>
+                    <td><input type="number" placeholder="1234-1234-1234-1234"></td>
+                    <td><input type="submit" value="Verify Card"> </td>
+                </tr>
+
+                <tr>
+                    <td><br></td>
+                </tr>
+
+                <tr>
+                    <th>Pin: </th>
+                    <td><input type="number" placeholder="123456"></td>
+                </tr>
+
+                <tr>
+                    <td><br></td>
+                </tr>
+
+                <tr>
+                    <th><i><u><mark>Upload photo for discount:</mark></u></i></th>
+                    <td><input type="file"></td>
+                </tr>
+
+                <tr>
+                    <td><br></td>
+                </tr>
+
+                <tr>
+                    <th><i><mark>Additional Note: </mark></i></th>
+                    <td><textarea name="" id="" placeholder="If any additional requirement there please mention here"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><br></td>
+                </tr>
+
+                <tr>
+                    <th><i><mark>Rating</mark></i></th>
+                    <td><input type="range"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit Order"></td>
+                </tr>
+            </table>
+        </div>
+    </fieldset>
+</body>
+</html>

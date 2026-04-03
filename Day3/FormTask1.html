@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            border: 1px solid black;
+            width: 450px;
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 200px;
+            height: 30px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <div>
+        <table >
+        <tr>
+            <td colspan="2">Please enter your personal details</td>
+        </tr>
+        <tr>
+            <td>FirstName: *</td>
+            <td><input type="text" name="name" required></td>
+        </tr>
+        <tr>
+            <td>LastName: *</td>
+            <td><input type="text" name="lname" required></td>
+        </tr>
+        <tr>
+            <td>Street address:</td>
+            <td><input type="text" name="street"></td>
+        </tr>
+        <tr>
+            <td>Town/City:</td>
+            <td><input type="text" name="city"></td>
+        </tr>
+        <tr>
+            <td>Postcode:</td>
+            <td><input type="number" name="postcode"></td>
+        </tr>
+        <tr>
+            <td>Telephone:</td>
+            <td><input type="number" name="phone"></td>
+        </tr>
+        <tr>
+            <td>Mobile: </td>
+            <td><input type="number" name="mobile"></td>
+        </tr>
+        <tr>
+            <td>Email address: *</td>
+            <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td colspan="2">Fields having * are mandatory
+                <br>
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
