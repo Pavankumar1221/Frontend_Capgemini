@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d4f1f9; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #e6fff2; 
+  padding: 25px;
+  width: 260px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.profile {
+  width: 90px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+.location {
+  color: green;
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgb(185, 207, 185);
+  color: black;
+  border-radius: 6px;
+}
+
+a:hover {
+  background-color: lightgreen;
+}

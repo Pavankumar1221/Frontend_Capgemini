@@ -1,0 +1,62 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dfece6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  flex: 1;
+  font-size: small;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.radio-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  flex: 1;
+  border-radius: 5px;
+  font-size: small;
+}
+
+.checkbox {
+  margin: 15px 0;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1c7c63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
