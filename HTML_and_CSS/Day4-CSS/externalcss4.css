@@ -1,0 +1,19 @@
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 200px auto;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

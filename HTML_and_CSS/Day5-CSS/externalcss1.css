@@ -1,0 +1,38 @@
+#inner_container{
+    border: 2px solid black;
+    width: 270px;
+    height: 380px;
+    border-radius: 15px;
+    background-color: burlywood;
+    box-shadow: 5px 5px 10px gray;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 57px;
+    border-radius: 10px;
+}
+#main_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 10px;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

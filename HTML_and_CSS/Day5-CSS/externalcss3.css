@@ -1,0 +1,62 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* div{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+} */
+
+
+/* #parent{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
+#child{
+    border: 2px solid black;
+    width: 50%;
+    height: 50%;
+
+} */
+
+/* body{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
+div{
+    border: 2px solid black;
+    width: 50%;
+    height: 50%;
+    background-color: lightblue;
+} */
+
+
+/* div{
+    border: 2px solid black;
+    font-size: 10px;
+    width: 300px;
+    height: 300px;
+}
+h1{
+    font-size: 3em;
+}
+#head{
+    font-size: 30px;
+} */
+
+#parent{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    font-size: 10px;
+}
+#child{
+    /* border: 2px solid black; */
+    font-size: 2em;
+}
+#grandchild{
+    /* border: 2px solid black; */
+    font-size: 2em;
+}

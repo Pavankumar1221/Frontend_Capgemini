@@ -1,0 +1,105 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* For type-1 Simple Selectors */
+/* #head1 {
+    color: blue;
+}
+.head2 {
+    color: green;
+}
+p {
+    color: purple;
+    background-color: lightgray;
+}
+h3, h4 {
+    color: brown;
+    background-color: lightyellow;
+} */
+
+/* For type-2 Combinator Selectors */
+/* 1. Descendant Selector */
+/* div h1 {
+    color: brown;
+    background-color: beige;
+} */
+/* 2. Child Selector */
+/* div > h1 {
+    color: brown;
+    background-color: beige;
+} */
+/* 3. Adjacent Sibling Selector */
+/* div + p {
+    color: brown;
+    background-color: beige;
+} */
+/* 4. General Sibling Selector */
+/* div ~ p {
+    color: brown;
+    background-color: beige;
+} */
+
+/* For type-3 Pseudo-class Selectors */
+h1::selection {
+    color: green;
+    background-color: black;
+}
+p::first-line {
+    color: red;
+    font-weight: bold;
+}
+li::marker {
+    color: blue;
+    font-size: 150%;
+}
+h1::before {
+    content: "Heading: ";
+    color: orange;
+}
+h1::after {
+    content: " (End of Heading)";
+    color: orange;
+}
+input::placeholder {
+    color: brown;
+    font-style: italic;
+}
+
+a:link {
+    color: red;
+    background-color: lightgray;
+}
+a:visited {
+    color: black;
+    background-color: lightyellow;
+}
+a:hover {
+    color: green;
+    background-color: lightblue;
+}
+a:focus {
+    color: blue;
+    background-color: lightpink;
+}
+a:active{
+    color: purple;
+    background-color: lightgreen;
+}
+button:focus {
+    color: red;
+    background-color: black;
+}
+
+
+h4{
+    /* color: rgb(0,0,255); */
+    /* color: rgb(0,255,0); */
+    /* color: rgb(255,0,0); */
+    /* color: rgb(0,0,0); */
+    /* color: rgb(255,255,255); */
+
+    /* color: rgba(255, 0, 0, 0.5); */
+
+    /* color: hsl(0, 100%, 50%); */
+    color: hsla(0, 100%, 50%, 0.5);
+}
