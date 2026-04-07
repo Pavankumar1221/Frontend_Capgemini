@@ -1,0 +1,33 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.maincontainer{
+    border: 2px solid black;
+    display: flex;
+    height: 90vh;
+    
+}
+.sidebar{
+    /* border: 2px solid black; */
+    width: 200px;
+    background-color: rgb(241, 202, 202);
+    
+}
+.content{
+    /* border: 2px solid black; */
+    flex-grow: 1;
+    text-align: center;
+}
+a{
+    padding: 10px;
+    font-size: larger;
+}
+a:hover{
+    color: red;
+    background-color: white;
+}
