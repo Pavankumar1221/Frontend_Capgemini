@@ -1,0 +1,32 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    border: 2px solid black;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#ham{
+    color: black;
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    #maincontent{
+        display: none;
+    }
+    #ham{
+        display: block;
+    }
+}
