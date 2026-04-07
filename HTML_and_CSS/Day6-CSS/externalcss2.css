@@ -1,0 +1,36 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: x-large;
+    text-decoration: none;
+    color: brown;
+}
+
+.nav{
+    border: 2px solid rgb(115, 161, 111);
+    background-color: bisque;
+    display: flex;
+    
+}
+.menu{
+    /* border: 2px solid black; */
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.logo{
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+.login{
+    /* border: 2px solid black; */
+    padding: 10px;
+    color: blue;
+}
+a:hover{
+    color: red;
+    background-color: white;
+}
