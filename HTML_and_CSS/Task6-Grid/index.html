@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            border: 2px solid black;
+            /* height: 500px;
+            width: 500px; */
+            height: 550px;
+            width: 550px;
+            margin: 70px auto;
+            text-align: center ;
+            justify-content: center;
+        }
+
+        .box{
+            border: 2px solid white;
+            background-color: lightblue;
+        }
+        .box1{
+            grid-row-start: 1;
+            grid-row-end: 2;
+
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .box2{
+            grid-row-start: 2;
+            grid-row-end: 4;
+
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .box3{
+            grid-row-start: 2;
+            grid-row-end: 3;
+
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .box6{
+            grid-row-start: 4;
+            grid-row-end: 5;
+
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box box1">1</div>
+            <div class="box box2">2</div>
+            <div class="box box3">3</div>
+            <div class="box box4">4</div>
+            <div class="box box5">5</div>
+            <div class="box box6">6</div>
+        </div>
+    </main>
+</body>
+</html>
